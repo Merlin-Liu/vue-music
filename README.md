@@ -1,6 +1,8 @@
-# vue-music
+# Vue2 MusicApp
 
 > 音乐播放器
+
+--- 概述
 
 ## Build Setup
 
