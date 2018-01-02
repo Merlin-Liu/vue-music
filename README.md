@@ -40,6 +40,8 @@ MVVM框架：Vue.js (2.x)
 
 * 滚动插件：Scroll
 
+* 懒加载：vue-lazyload图片懒加载、webpack路由懒加载
+
 ## 实现功能
 
 * 轮播图推荐、热门歌单推荐——后台接口获取信息，前台展示。
@@ -107,6 +109,84 @@ MVVM框架：Vue.js (2.x)
 **我喜欢和最近播放**
 
 ![我喜欢和最近播放](./static/我喜欢和最近播放.gif)
+
+## 目录结构
+
+<pre>
+.
+├── README.md
+├── build // 环境配置、webpack配置
+├── config // 环境配置
+├── dist // bulid下的目录
+├── index.html
+├── npm-debug.log
+├── package.json
+├── prod.server.js
+├── src
+│   ├── App.vue
+│   ├── api // 抽取出的Api
+│   │   ├── config.js
+│   │   ├── rank.js
+│   │   ├── recommend.js
+│   │   ├── search.js
+│   │   ├── singer.js
+│   │   └── song.js
+│   ├── base // 基础组件
+│   │   ├── confirm // 提示框
+│   │   ├── listview // 包裹列表的组件
+│   │   ├── loading // 加载中
+│   │   ├── no-result // 没有东西、没找到
+│   │   ├── progress-bar // 播放按钮
+│   │   ├── progress-circle // 进度圆圈
+│   │   ├── scroll // 滚动组件
+│   │   ├── seach-box // 搜索
+│   │   ├── search-list // 搜索列表框
+│   │   ├── slider // 点击滚动到相应类别
+│   │   ├── song-list // 歌曲列表
+│   │   ├── switches // 我喜欢或最近播放的切换
+│   │   └── top-tip // 我喜欢或最近播放的top
+│   ├── common
+│   │   ├── fonts
+│   │   ├── image
+│   │   ├── js // 公共JS
+│   │   │   ├── cache.js // 缓存
+│   │   │   ├── config.js // 配置
+│   │   │   ├── dom.js // dom操作
+│   │   │   ├── jsonp.js
+│   │   │   ├── mixin.js // vue mixin
+│   │   │   ├── singer.js
+│   │   │   ├── song.js
+│   │   │   └── util.js // 常用工具封装
+│   │   └── stylus // css
+│   ├── components
+│   │   ├── add-song // 添加到播放列表
+│   │   ├── disc // 描述
+│   │   ├── m-header // 首屏header
+│   │   ├── music-list // 歌曲列表
+│   │   ├── player // 播放器内核
+│   │   ├── playlist // 播放列表
+│   │   ├── rank // 排行
+│   │   ├── recommend // 热门
+│   │   ├── search // 搜索
+│   │   ├── singer // 歌手
+│   │   ├── singer-detail // 歌手详情
+│   │   ├── suggest // 查询结果
+│   │   ├── tab // 排行、热门、搜索、歌手的路由
+│   │   ├── top-list // 排行列表
+│   │   └── user-center // 用户中心
+│   ├── main.js
+│   ├── router // 路由
+│   └── store // vuex
+│       ├── actions.js // action
+│       ├── getters.js // getter
+│       ├── index.js 
+│       ├── mutation-types.js // mutationType
+│       ├── mutations.js // mutation
+│       └── state.js // state
+└── static // 静态资源
+
+43 directories, 97 files
+</pre>
 
 ## 总结
 
