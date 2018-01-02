@@ -213,7 +213,7 @@
       padding: 20px 0
       border-radius: 10px
       text-align: center
-      background: $color-background-d
+      background: rgba(0, 0, 0, 0.3)
       font-family: Helvetica
       .item
         padding: 3px
