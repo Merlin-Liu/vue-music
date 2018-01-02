@@ -41,7 +41,7 @@
       padding: 8px
       text-align: center
       font-size: $font-size-medium
-      color: $color-text-d
+      color: $color-theme
       &.active
         background: $color-highlight-background
         color: $color-text

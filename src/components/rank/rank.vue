@@ -102,7 +102,7 @@
           height: 100px
           overflow: hidden
           background: $color-highlight-background
-          color: $color-text-d
+          color: $color-text
           font-size: $font-size-small
           .song
             no-wrap()

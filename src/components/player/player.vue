@@ -567,11 +567,11 @@
             width: 8px
             height: 8px
             border-radius: 50%
-            background: $color-text-l
+            background: $color-text
             &.active
               width: 20px
               border-radius: 5px
-              background: $color-text-ll
+              background: $color-theme
         .progress-wrapper
           display: flex
           align-items: center

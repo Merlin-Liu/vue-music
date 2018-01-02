@@ -42,7 +42,7 @@
         }
       },
       getDesc (song) {
-        return `${song.singer} 。${song.album}`
+        return `${song.singer}《${song.album}》`
       },
       selectItem (item, index) {
         clearTimeout(this.timer)
@@ -64,7 +64,11 @@
       align-items: center
       box-sizing: border-box
       height: 64px
+      margin: 5px 10px
+      padding: 5px 10px
       font-size: $font-size-medium
+      border: 2px solid #d93f30
+      border-radius: 10px
       .rank
         flex: 0 0 25px
         width: 25px
@@ -90,9 +94,9 @@
         overflow: hidden
         .name
           no-wrap()
-          color: $color-text
+          color: $color-text-l
         .desc
           no-wrap()
           margin-top: 4px
-          color: $color-text-d
+          color: $color-text-l
 </style>

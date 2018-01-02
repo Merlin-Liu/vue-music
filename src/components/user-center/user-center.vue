@@ -144,8 +144,8 @@
       padding: 7px 0
       margin: 0 auto
       text-align: center
-      border: 1px solid  $color-text-l
-      color: $color-text-l
+      border: 2px solid  $color-theme
+      color: $color-theme
       border-radius: 100px
       font-size: 0
       .icon-play

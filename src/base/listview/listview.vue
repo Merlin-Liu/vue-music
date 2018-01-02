@@ -183,18 +183,18 @@
     overflow: hidden
     background: $color-background
     .list-group
-      padding-bottom: 30px
+      padding-bottom: 15px
       .list-group-title
         height: 30px
         line-height: 30px
         padding-left: 20px
         font-size: $font-size-small
-        color: $color-text-l
+        color: $color-text
         background: $color-highlight-background
       .list-group-item
         display: flex
         align-items: center
-        padding: 20px 0 0 30px
+        padding: 15px 0 0 30px
         .avatar
           width: 50px
           height: 50px
@@ -218,7 +218,7 @@
       .item
         padding: 3px
         line-height: 1
-        color: $color-text-l
+        color: $color-text
         font-size: $font-size-small
         &.current
           color: $color-theme
@@ -232,7 +232,7 @@
         line-height: 30px
         padding-left: 20px
         font-size: $font-size-small
-        color: $color-text-l
+        color: $color-text
         background: $color-highlight-background
     .loading-container
       position: absolute

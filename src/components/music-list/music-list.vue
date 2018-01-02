@@ -194,7 +194,7 @@
           padding: 7px 0
           margin: 0 auto
           text-align: center
-          border: 1px solid $color-theme
+          border: 2px solid $color-theme
           color: $color-theme
           border-radius: 100px
           font-size: 0
@@ -225,7 +225,7 @@
       width: 100%
       background: $color-background
       .song-list-wrapper
-        padding: 20px 30px
+        padding: 0px 0px
       .loading-container
         position: absolute
         width: 100%

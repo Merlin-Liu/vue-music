@@ -1,21 +1,6 @@
-# Vue2 MusicApp
+# vue-music
 
 > 音乐播放器
-
-概述
-----
-使用Vue2开发移动端音乐App。数据接口来源于QQ音乐
-
-技术栈
-----
-* Vue2
-* Vue-cli
-* Vue-Router
-* Vuex
-* axios
-* styls
-* webpack
-
 
 ## Build Setup
 

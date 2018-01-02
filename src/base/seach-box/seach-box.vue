@@ -63,7 +63,7 @@
       color: $color-text
       font-size: $font-size-medium
       &::placeholder
-        color: $color-text-d
+        color: $color-text
     .icon-dismiss
       font-size: 16px
       color: $color-background

@@ -173,16 +173,16 @@
           .icon
             margin-right: 10px
             font-size: 30px
-            color: $color-theme-d
+            color: $color-text
           .text
             flex: 1
             font-size: $font-size-medium
-            color: $color-text-l
+            color: $color-text
           .clear
             extend-click()
             .icon-clear
               font-size: $font-size-medium
-              color: $color-text-d
+              color: $color-text
       .list-content
         max-height: 240px
         overflow: hidden
@@ -200,12 +200,12 @@
             flex: 0 0 20px
             width: 20px
             font-size: $font-size-small
-            color: $color-theme-d
+            color: $color-text
           .text
             flex: 1
             no-wrap()
             font-size: $font-size-medium
-            color: $color-text-d
+            color: $color-text
           .like
             extend-click()
             margin-right: 15px
@@ -224,9 +224,9 @@
           display: flex
           align-items: center
           padding: 8px 16px
-          border: 1px solid $color-text-l
+          border: 2px solid $color-text
           border-radius: 100px
-          color: $color-text-l
+          color: $color-text
           .icon-add
             margin-right: 5px
             font-size: $font-size-small-s
@@ -237,5 +237,5 @@
         line-height: 50px
         background: $color-background
         font-size: $font-size-medium-x
-        color: $color-text-l
+        color: $color-theme
 </style>

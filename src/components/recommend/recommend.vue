@@ -125,7 +125,12 @@
         display: flex
         box-sizing: border-box
         align-items: center
-        padding: 0 20px 20px 20px
+        margin: 10px 10px
+        padding: 10px 10px
+        background-color: #d33a31
+        border-radius: 10px
+        &:nth-of-type(1)
+          margin: 0px 10px 10px 10px
         .icon
           flex: 0 0 60px
           width: 60px

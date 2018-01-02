@@ -62,10 +62,10 @@
         height: 0
       .text
         flex: 1
-        color: $color-text-l
+        color: $color-theme
       .icon
         extend-click()
         .icon-delete
           font-size: $font-size-small
-          color: $color-text-d
+          color: $color-theme
 </style>
